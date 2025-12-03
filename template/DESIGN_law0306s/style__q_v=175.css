@@ -1,0 +1,172 @@
+/*전화번호 배경색*/
+.callcolor {-webkit-animation: blink 1.5s linear infinite;}
+@-webkit-keyframes blink {0% { color: #dbb171; }50% { color: #ffffff; }100% { color: #ff6200; }}
+
+.callbg-color-01 .cbg { background-color:#ff0000; }
+.callbg-color-02 .cbg { background-color:#dbb171; }
+.callbg-color-03 .cbg { background-color:#ffbd39; }
+.callbg-color-04 .cbg { background-color:#207d11; }
+.callbg-color-05 .cbg { background-color:#12afe6; }
+.callbg-color-06 .cbg { background-color:#1a2766; }
+.callbg-color-07 .cbg { background-color:#b741f3; }
+.callbg-color-08 .cbg { background-color:#333333; }
+.callbg-color-09 .cbg { background-color:#757575; }
+.callbg-color-10 .cbg { background-color:#aaaaaa; }
+
+
+/*비주얼 텍스트 효과*/
+.visualtext { height: 70em; overflow-y: hidden; display: block; }
+.visualtext .vmotion { animation-name: grow; animation-duration: 1s; }
+
+.visualtext02 { height: 8em; overflow-y: hidden; display: block; }
+.visualtext02 .vmotion { animation-name: grow; animation-duration: 1s; }
+@keyframes grow { from { transform: translateY(5em) } to { transform: translateY(0) }}
+
+/*비주얼텍스트포인트컬러*/
+.vtpoint-color-01 .vtpoint { color:#ff0000; }
+.vtpoint-color-02 .vtpoint { color:#dbb171; }
+.vtpoint-color-03 .vtpoint { color:#ffbd39; }
+.vtpoint-color-04 .vtpoint { color:#207d11; }
+.vtpoint-color-05 .vtpoint { color:#12afe6; }
+.vtpoint-color-06 .vtpoint { color:#1a2766; }
+.vtpoint-color-07 .vtpoint { color:#b741f3; }
+.vtpoint-color-08 .vtpoint { color:#333333; }
+.vtpoint-color-09 .vtpoint { color:#757575; }
+.vtpoint-color-10 .vtpoint { color:#aaaaaa;}
+
+/*탕감된채무금액배경*/
+.nbbg-color-01 { background-color:#ff0000; }
+.nbbg-color-02 { background-color:#c79e5f; }
+.nbbg-color-03 { background-color:#ffbd39; }
+.nbbg-color-04 { background-color:#207d11; }
+.nbbg-color-05 { background-color:#12afe6; }
+.nbbg-color-06 { background-color:#1a2766; }
+.nbbg-color-07 { background-color:#b741f3; }
+.nbbg-color-08 { background-color:#333333; }
+.nbbg-color-09 { background-color:#757575; }
+.nbbg-color-10 { background-color:#aaaaaa;}
+
+
+/*탕감된채무금액숫자*/
+.flex { justify-content: space-between; margin: 0 auto; width: 80%; }
+.countnumber { text-align: center; font-size: 90px; font-weight: 700; color: #ffffff;}
+.com { text-align: center; font-size: 35px; font-weight: 700; color: #ffffff; }
+
+
+/*아이콘배경 오버*/
+.guide { border-radius: 100px; transition: 0.7s; }
+.guide:hover {border-radius: 30px;}
+
+.guidebg-color-01 .guide:hover { background-color:#c60b0b !important; }
+.guidebg-color-02 .guide:hover { background-color:#c79e5f !important; }
+.guidebg-color-03 .guide:hover { background-color:#e69c08 !important; }
+.guidebg-color-04 .guide:hover { background-color:#125906 !important; }
+.guidebg-color-05 .guide:hover { background-color:#0083e0 !important; }
+.guidebg-color-06 .guide:hover { background-color:#132d86 !important; }
+.guidebg-color-07 .guide:hover { background-color:#8325b2 !important; }
+.guidebg-color-08 .guide:hover { background-color:#232323 !important; }
+.guidebg-color-09 .guide:hover { background-color:#595959 !important; }
+.guidebg-color-10 .guide:hover { background-color:#878787 !important; }
+
+
+
+/*형광펜 효과*/
+.highlight{background: linear-gradient(to top, rgba(0,0,0,0.5) 40%, transparent 40%);margin: 0 auto 21px;width: 835px;}
+
+
+.highlight_bn { background-image: linear-gradient(to top, #e0e3f9 100%, transparent 50%); background-repeat: no-repeat; background-size: 100% 50%; background-position: 0 88%; transition: background-size 0.25s ease-in; }
+.highlight_bn:hover{ background-size: 100% 100%; }
+
+.highlight_hashtag { border-radius: 50px; transition: 0.7s; }
+.highlight_hashtag:hover{ border-radius: 0px; }
+
+.highlight_hash-01 .highlight_hashtag { border: 2px solid #ff0000;}
+.highlight_hash-02 .highlight_hashtag { border: 2px solid #75644d;}
+.highlight_hash-03 .highlight_hashtag { border: 2px solid #ffbd39;}
+.highlight_hash-04 .highlight_hashtag { border: 2px solid #207d11;}
+.highlight_hash-05 .highlight_hashtag { border: 2px solid #12afe6;}
+.highlight_hash-06 .highlight_hashtag { border: 2px solid #1a2766;}
+.highlight_hash-07 .highlight_hashtag { border: 2px solid #b741f3;}
+.highlight_hash-08 .highlight_hashtag { border: 2px solid #333333;}
+.highlight_hash-09 .highlight_hashtag { border: 2px solid #757575;}
+.highlight_hash-10 .highlight_hashtag { border: 2px solid #aaaaaa;}
+
+
+/*배너 배경 색상*/
+.lawbn_colorbg_01{ border-radius: 0px 50px 0px 0px; transition: 0.7s; }
+.lawbn_colorbg_01:hover { border-radius: 100px; }
+
+.lawbn_colorbg_02{ border-radius: 0px 0px 0px 0px; transition: 0.7s; }
+.lawbn_colorbg_02:hover { border-radius: 100px; }
+
+
+/*배너 라인*/
+.lawbnline { border-radius: 50px 0px 0px 0px; border:2px solid #ffffff; transition: 0.7s;}
+.lawbnline:hover { border-radius: 100px;}
+
+.lawbnline02 { border-radius: 0px; border:2px solid #ffffff; transition: 0.7s;}
+.lawbnline02:hover { border-radius: 100px;}
+
+.lawbnline03 { border-radius: 0px 0px 50px 0px; border:2px solid #ffffff; transition: 0.7s;}
+.lawbnline03:hover { border-radius: 100px;}
+
+.lawbnline04 { border-radius: 0px 0px 0px 50px; border:2px solid #ffffff; transition: 0.7s;}
+.lawbnline04:hover { border-radius: 100px;}
+
+.lawbn-color-01 .lawbnline:hover, .lawbn-color-01 .lawbnline02:hover, .lawbn-color-01 .lawbnline03:hover, .lawbn-color-01 .lawbnline04:hover { border:2px solid #ff0000;}
+.lawbn-color-02 .lawbnline:hover, .lawbn-color-02 .lawbnline02:hover, .lawbn-color-02 .lawbnline03:hover, .lawbn-color-02 .lawbnline04:hover { border:2px solid #dbb171;}
+.lawbn-color-03 .lawbnline:hover, .lawbn-color-03 .lawbnline02:hover, .lawbn-color-03 .lawbnline03:hover, .lawbn-color-03 .lawbnline04:hover { border:2px solid #ffbd39;}
+.lawbn-color-04 .lawbnline:hover, .lawbn-color-04 .lawbnline02:hover, .lawbn-color-04 .lawbnline03:hover, .lawbn-color-04 .lawbnline04:hover { border:2px solid #207d11;}
+.lawbn-color-05 .lawbnline:hover, .lawbn-color-05 .lawbnline02:hover, .lawbn-color-05 .lawbnline03:hover, .lawbn-color-05 .lawbnline04:hover { border:2px solid #12afe6;}
+.lawbn-color-06 .lawbnline:hover, .lawbn-color-06 .lawbnline02:hover, .lawbn-color-06 .lawbnline03:hover, .lawbn-color-06 .lawbnline04:hover { border:2px solid #1a2766;}
+.lawbn-color-07 .lawbnline:hover, .lawbn-color-07 .lawbnline02:hover, .lawbn-color-07 .lawbnline03:hover, .lawbn-color-07 .lawbnline04:hover { border:2px solid #b741f3;}
+.lawbn-color-08 .lawbnline:hover, .lawbn-color-08 .lawbnline02:hover, .lawbn-color-08 .lawbnline03:hover, .lawbn-color-08 .lawbnline04:hover { border:2px solid #333333;}
+.lawbn-color-09 .lawbnline:hover, .lawbn-color-09 .lawbnline02:hover, .lawbn-color-09 .lawbnline03:hover, .lawbn-color-09 .lawbnline04:hover { border:2px solid #757575;}
+.lawbn-color-10 .lawbnline:hover, .lawbn-color-10 .lawbnline02:hover, .lawbn-color-10 .lawbnline03:hover, .lawbn-color-10 .lawbnline04:hover { border:2px solid #aaaaaa;}
+
+/*1분진단 배경패턴*/
+.diagonalpattern {background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(0,0,0,0.1) 35px, rgba(0,0,0,0.1) 36px);}
+
+/*1분진단 버튼 배경색*/
+.onemin_start{  width: 100%;height: 295px;transition: 0.7s;box-shadow: 7px 6px 8px rgb(0 0 0 / 15%); border-radius: 30px; }
+.onemin_start:hover{ border-radius: 150px 0px 150px 0px;}
+.btnbg-color-01 .onemin_start { background-color:#ff0000; }
+.btnbg-color-02 .onemin_start { background-color:#d4b17a; }
+.btnbg-color-03 .onemin_start { background-color:#ffbd39; }
+.btnbg-color-04 .onemin_start { background-color:#207d11; }
+.btnbg-color-05 .onemin_start { background-color:#12afe6; }
+.btnbg-color-06 .onemin_start { background-color:#1a2766; }
+.btnbg-color-07 .onemin_start { background-color:#b741f3; }
+.btnbg-color-08 .onemin_start { background-color:#333333; }
+.btnbg-color-09 .onemin_start { background-color:#757575; }
+.btnbg-color-10 .onemin_start { background-color:#aaaaaa; }
+
+.startbtn {-webkit-animation: start 2.5s linear infinite;}
+@-webkit-keyframes start {50% { color: #3272ba; }50% { color: #16375c; }100% {color: #3272ba; }}
+
+
+/*롤링 좌우 화살표 배경*/
+.arrowbg { border:1px solid #e8e8e8; border-radius: 100px; }
+
+.button-color-01 .arrowbg:hover { background-color:#ff0000; border:1px solid #ff0000; }
+.button-color-02 .arrowbg:hover { background-color:#dbb171; border:1px solid #dbb171; }
+.button-color-03 .arrowbg:hover { background-color:#ffbd39; border:1px solid #ffbd39; }
+.button-color-04 .arrowbg:hover { background-color:#207d11; border:1px solid #207d11; }
+.button-color-05 .arrowbg:hover { background-color:#2fa7ff; border:1px solid #2fa7ff; }
+.button-color-06 .arrowbg:hover { background-color:#1a2766; border:1px solid #1a2766; }
+.button-color-07 .arrowbg:hover { background-color:#252033; border:1px solid #252033; }
+.button-color-08 .arrowbg:hover { background-color:#333333; border:1px solid #333333; }
+.button-color-09 .arrowbg:hover { background-color:#737373; border:1px solid #737373; }
+.button-color-10 .arrowbg:hover { background-color:#aaaaaa; border:1px solid #aaaaaa; }
+
+/*무료상담 배경 패턴
+.zigpattern{background:linear-gradient(135deg, rgba(0,0,0,0.08) 25%, transparent 25%) -50px 0,linear-gradient(225deg, rgba(0,0,0,0.08) 25%, transparent 25%) -50px 0,linear-gradient(315deg, rgba(0,0,0,0.08) 25%, transparent 25%),linear-gradient(45deg, rgba(0,0,0,0.08) 25%, transparent 25%); background-size: 160px 160px;}
+*/
+/*무료상담 배경 패턴*/
+.zigpattern{background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(0,0,0,0.1) 35px, rgba(0,0,0,0.1) 70px);}
+
+/*무료상담 버튼색상*/
+.main_btn { text-align: center;transition: all 0.7s ease-out;background: linear-gradient(270deg, rgb(72,60,48,0.8), rgba(96,82,67,0.8), rgba(116,101,86,0.3), rgba(72,60,48,0)); background-position: 1% 50%;background-size: 300% 300%; }
+.main_btn:hover{background-position: 99% 50%;}
+
+

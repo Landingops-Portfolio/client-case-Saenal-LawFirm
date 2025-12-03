@@ -1,0 +1,127 @@
+@font-face {
+font-family: NanumSquareR;
+
+src: local(NanumSquareR),
+local(NanumSquare),
+url('webfont_nanum/NanumSquareR.eot?#iefix') format('embedded-opentype'),
+url('webfont_nanum/NanumSquareR.woff') format('woff'),
+url('webfont_nanum/NanumSquareR.ttf') format('truetype');
+
+font-style: normal;
+font-weight: normal;
+unicode-range: U+0-10FFFF;
+transform: skew(-0.04deg); //각도조절}
+
+.nanum{font-family: NanumSquareR; color:#333; font-size:17px; line-height:22px; letter-spacing:-1px;}
+.nanum2{font-family: NanumSquareR; color:#666; font-size:17px; line-height:1.5; letter-spacing:-1px;}
+.nanum3{font-family: NanumSquareR; color:#666; font-size:17px; line-height:25px; letter-spacing:-1px;}
+
+.nanum_font{font-family: NanumSquareR;}
+
+.nanum_font th, .nanum_font td {font-family: NanumSquareR;}
+
+
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url('webfont_noto/NotoSansKR-Light.otf');
+		 url('webfont_noto/NotoSansKR-Light.woff2') format('woff2'),
+		 url('webfont_noto/NotoSansKR-Light.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url('webfont_noto/notokr-light.eot');
+	src: url('webfont_noto/notokr-light.eot?#iefix') format('embedded-opentype'),
+		 url('webfont_noto/notokr-light.woff2') format('woff2'),
+		 url('webfont_noto/notokr-light.woff') format('woff');
+}
+		
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 300;
+	src: url('webfont_noto/NotoSansKR-Regular.otf');
+		 url('webfont_noto/NotoSansKR-Regular.woff2') format('woff2'),
+		 url('webfont_noto/NotoSansKR-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 300;
+	src: url('webfont_noto/notokr-regular.eot');
+	src: url('webfont_noto/notokr-regular.eot?#iefix') format('embedded-opentype'),
+		 url('webfont_noto/notokr-regular.woff2') format('woff2'),
+		 url('webfont_noto/notokr-regular.woff') format('woff');
+}
+ 
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 400;
+	src: url('webfont_noto/notokr-medium.eot');
+	src: url('webfont_noto/notokr-medium.eot?#iefix') format('embedded-opentype'),
+		 url('webfont_noto/notokr-medium.woff2') format('woff2'),
+		 url('webfont_noto/notokr-medium.woff') format('woff'),
+		 url('webfont_noto/notokr-medium.ttf') format('truetype');
+}
+
+ @font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 400;
+	src: url('webfont_noto/NotoSansKR-Medium.otf');
+		 url('webfont_noto/NotoSansKR-Medium.woff2') format('woff2'),
+		 url('webfont_noto/NotoSansKR-Medium.woff') format('woff');
+} 
+
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 600;
+	src: url('webfont_noto/notokr-bold.eot');
+	src: url('webfont_noto/notokr-bold.eot?#iefix') format('embedded-opentype'),
+		 url('webfont_noto/notokr-bold.woff2') format('woff2'),
+		 url('webfont_noto/notokr-bold.woff') format('woff'),
+		 url('webfont_noto/notokr-bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 600;
+	src: url('webfont_noto/NotoSansKR-Bold.otf');
+		 url('webfont_noto/NotoSansKR-Bold.woff2') format('woff2'),
+		 url('webfont_noto/NotoSansKR-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: bold;
+	src: url('webfont_noto/notokr-medium.eot');
+	src: url('webfont_noto/notokr-medium.eot?#iefix') format('embedded-opentype'),
+		 url('webfont_noto/notokr-medium.woff2') format('woff2'),
+		 url('webfont_noto/notokr-medium.woff') format('woff'),
+		 url('webfont_noto/notokr-medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: bold;
+	src: url('webfont_noto/NotoSansKR-Bold.otf');
+		 url('webfont_noto/NotoSansKR-Bold.woff2') format('woff2'),
+		 url('webfont_noto/NotoSansKR-Bold.woff') format('woff');
+}
+
+
+.design_font {font-family:'Noto Sans KR'; }
+.noto_font {font-family:'Noto Sans KR'; }
+
+.noto_font th, .noto_font td {font-family:'Noto Sans KR';}
+input[type="password"] { font-family: "맑은 고딕", malgun gothic, "Apple SD Gothic Neo", "돋움", dotum, sans-serif; }

@@ -1,0 +1,40 @@
+/* GNB */
+.ABA-gnb-wrap, .ABA-bggnb-left, .ABA-bggnb-right{top:0}
+.ABA-gnb-wrap{position:relative;}
+.ABA-gnb{position:relative;background-repeat: repeat-x;white-space:nowrap;}
+.ABA-gnb li{display:inline;margin-right:0px;}
+.ABA-gnb li.AB-first{margin-left:0 !important;background:none !important;}
+.ABA-bggnb-left{left:0;position:absolute;background-repeat: no-repeat;}
+.ABA-bggnb-right{right:0;position:absolute;background-repeat: no-repeat;}
+
+/* ABA-gnb-sub-1 */
+.ABA-gnb-sub-1{position:absolute;left:0;background-repeat:repeat-x;}
+.ABA-gnb-sub-1 li{float:left;_display:inline;position:relative;}
+.ABA-gnb .ABA-gnb-sub-1.AB-none{display:none !important;}
+.ABA-gnb .AB-child a span.AB-rleft{display:block;position:absolute;}
+.ABA-bggnbsub1-left{top:0;left:0;position:absolute; background-repeat: no-repeat;}
+.ABA-bggnbsub1-right{top:0;right:0;position:absolute; background-repeat: no-repeat;}
+
+/* ABA-gnb-sub-2 */
+.ABA-gnb-sub-2{position:absolute;left:0;}
+.ABA-gnb-sub-1 .ABA-gnb-sub-2 li{float:none; display:block !important;}
+.ABA-gnb-sub-1 .ABA-gnb-sub-2 li a{display:block;height:auto;white-space:nowrap;}
+.ABA-gnb-sub-1 .ABA-gnb-sub-2 li a span.AB-rleft{display:none !important;}
+
+/* GNB-v */
+.GNB-v  .ABA-bggnb-center, .GNB-v .ABA-bggnb-left, .GNB-v .ABA-bggnb-right{top:0;}
+.GNB-v .ABA-bggnbsub1-left, .GNB-v .ABA-bggnbsub1-right{width:0;height:0;}
+.GNB-v .ABA-gnb .ABA-gnb-sub-1 li {display:block !important;padding:0 !important;margin:0 !important;float:none;_width:100%;}
+.GNB-v .ABA-gnb-sub-1 li a{display:block;position:relative;height:auto;white-space:normal;}
+.GNB-v .ABA-gnb .AB-child a span.AB-rleft{display:block;position:absolute;}
+
+/* GNB-w */
+.AB-wide-gnb-sub{position:absolute;display:none;z-index:1/*2014-03-14 z-index 추가 by lee*/;}
+.AB-wide-gnb-sub .ABA-layout-align{position:relative;}
+.AB-wide-gnb-sub .ABA-bggnbsub1-left, .AB-wide-gnb-sub .ABA-bggnbsub1-right{width:0;height:0;}
+.AB-wide-gnb-sub .ABA-gnb-sub-1{top:0;}
+/*.AB-wide-gnb-sub .ABA-gnb-sub-1.AB-none{display:block !important;} 2014-03-14 주석처리 by lee*/
+.AB-wide-gnb-sub .ABA-gnb-sub-1.AB-first{border:0 !important;}
+.AB-wide-gnb-sub .ABA-gnb-sub-1 li{background:none !important;display:block !important;padding:0 !important;margin:0 !important;float:none;}
+.AB-wide-gnb-sub .ABA-gnb-sub-1 li a{display:block;position:relative;height:auto;}
+.AB-wide-gnb-sub .AB-child a span.AB-rleft{display:block;position:absolute;}

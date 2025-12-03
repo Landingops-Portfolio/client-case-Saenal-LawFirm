@@ -1,0 +1,30 @@
+.ABA-lnb-box a{letter-spacing:-0.5px;}
+
+/* 1뎁스
+.ABA-head-lnb h3{padding:5px 0 18px 2px;border-bottom:2px solid #4e4d4d;}
+.ABA-head-lnb h3 a{color:#383D44;font-weight:bold; font-size:15px; letter-spacing:-1px; } */
+/*.ABA-head-lnb { border-bottom:3px solid #4e4d4d; }*/
+.ABA-head-lnb h3 { display:none; }
+
+/* 2뎁스 */
+.ABA-lnb > li{position:relative; border-bottom:1px solid #e1e1e1;}
+.ABA-lnb > li > a, .ABA-lnb > li > span, .ABA-lnb > li > div > a{background:linear-gradient(to bottom, #ffffff 0%, #f7f7f7 10%); background:-webkit-linear-gradient(top, #ffffff 0%, #f7f7f7 10%); background-color:#f7f7f7;}
+.ABA-lnb > li:first-child > a{background:none;}
+.ABA-lnb > li:last-child{border-bottom:none; box-shadow:none;}
+.ABA-lnb li a, .ABA-lnb li > span{display:block; position:relative; padding:13px 0 14px 2px; color:#414141; font-weight:bold; font-size:13px;}
+/*.ABA-lnb li.AB-current-lnb a, .ABA-lnb li.AB-current-lnb ul.ABA-lnb-sub li.AB-current-lnb a, .ABA-lnb ul.ABA-lnb-sub li.AB-current-lnb a, .admin-designer-wrap .ABA-lnb li a:hover{color:#4174bd;}*/
+.ABA-lnb li.AB-child a{padding:13px 0 11px 2px;}
+
+/* 3뎁스 */
+.ABA-lnb .ABA-lnb-sub{padding:0 0 13px 10px;}
+.ABA-lnb .ABA-lnb-sub li a{padding:3px 0 3px 0; font-weight:normal; font-size:12px; color:#6d6d6d;}
+.ABA-lnb .ABA-lnb-sub li a:hover{ color:#2d85e4;  }
+.ABA-lnb li.AB-current-lnb > a{ color:#2d85e4; font-weight:bold;}
+
+/*새글 또는 페이지 신규등록시 아이콘 표시*/
+.ABA-lnb .AB-recent-update{background:url("admin_lnb_new.png") left 4px no-repeat; padding-left:17px; margin-left:5px;}
+.ABA-lnb-sub .AB-recent-update{background-position-y:3px;}
+.ABA-head-lnb .AB-recent-update{background-position-y:6px;}
+
+/* 휴지통 아이콘 */
+.ABA-lnb li[id*="AB-lnb-admin"] > a[href*="trash_can"] { background:url("../template/DESIGN_content/program/theme/01/board_list_btn_d.png") 98% center no-repeat; }
